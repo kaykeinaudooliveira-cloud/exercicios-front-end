@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <img src="bob-esponja-3-1130x590.jpg" alt="">
+    <h1 class="titulo">qqualquercoisa</h1>
+    <button onclick=mostrar() class="botao">clique aqui</button>
+    <p class="paragrafo">bem vindo ao site porno gay</p>
+</body>
+<script>
+    // 1. Seleciona os elementos
+    const botao = document.querySelector(".botao");
+    const titulo = document.querySelector(".titulo");
+
+    // 2. Adiciona o evento de clique
+    botao.addEventListener("click", function () {
+        // 3. Pega o conteúdo do título
+        const conteudo = titulo.innerText;
+
+        // 4. Mostra o conteúdo (pode ser num alerta ou em outro lugar)
+        alert(conteudo); // Exibe em um pop-up
+        // pResultado.innerText = conteudo; // Ou exibe no parágrafo abaixo
+    });
+</script>
+</html>
